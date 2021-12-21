@@ -12,7 +12,6 @@ linkScrape <- function(link){
   colnames(linkData) = c("link")
   return(linkData)
 }
-linkData <- linkScrape("https://www.igdb.com/games/recently_released")
 
 ##NAME SCRAPE FUNCTION
 nameScrape <- function(link){
